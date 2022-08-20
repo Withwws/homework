@@ -15,7 +15,7 @@ int main(){
     }
     else if (c<a && c<b)
     {
-        printf("%d",c);
+        printf("Min :%d",c);
     }
     
     return 0;
@@ -33,5 +33,5 @@ int main(){
             min = num[i];
         }
     }
-    printf("Min: %d\n", min);
+    printf("Min: %d", min);
 }
