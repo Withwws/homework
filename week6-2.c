@@ -5,13 +5,17 @@ void drawstar(int n)
     if (n == 0)
     {
         return;
-    }
-    printf("*");
+    };
+    printf("*");  
     drawstar(n - 1);
 }
 int main(){
-    int n,i=0;
+    int n,a;
     printf("Enter numbers: ");
     scanf("%d",&n);
-    drawstar(n);
+    for (int i = 0; i < n; i++)
+    {
+        drawstar(n);
+        printf("\n");
+    }
 }
