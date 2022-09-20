@@ -6,7 +6,7 @@ void drawstar(int n)
     {
         return;
     };
-    printf("*");  
+    printf("* ");  
     drawstar(n - 1);
 }
 int main(){
@@ -19,4 +19,4 @@ int main(){
         printf("\n");
     }
 }
-//tyjtj
+//ef
