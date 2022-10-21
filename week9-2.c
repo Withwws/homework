@@ -23,5 +23,5 @@ int main ()
         }
     }
     printf("%s\n",word);
-    printf("%d\n%d",strlen(up),strlen(low));   
+    printf("uppercase :%d\nlowercase :%d",strlen(up),strlen(low));   
 }

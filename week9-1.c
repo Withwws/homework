@@ -19,5 +19,5 @@ int main ()
         }
     }
     printf("%s\n",word);
-    printf("%d\n%d",a,b);   
+    printf("uppercase :%d\nlowercase :%d",a,b);   
 }
